@@ -9,9 +9,9 @@ import { RolesGuard } from "src/auth/roles.guard";
 export class RoleController {
     constructor(private readonly roleService: RoleService) {}
 
-    @Roles('Admin')
-    @UseGuards(RolesGuard)
-    @UseGuards(AuthGuard)
+    // @Roles('Admin')
+    // @UseGuards(RolesGuard)
+    // @UseGuards(AuthGuard)
     @Post('/addrole')
     async createRole(@Body() createRoleDto: CreateRoleDTO) {
         return await this.roleService.createRole(createRoleDto);

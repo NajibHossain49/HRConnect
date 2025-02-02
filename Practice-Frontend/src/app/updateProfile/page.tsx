@@ -139,13 +139,13 @@ export default function Profile() {
                             onChange={handleInputChange} className="input input-bordered" placeholder="Email" />
                         {errors.email && <p className="text-red-500 text-xs italic">{errors.email}</p>}
                     </div>
-                    <div className=" flex items-center justify-center gap-2 mb-2">
+                    {/* <div className=" flex items-center justify-center gap-2 mb-2">
                         <input type="text" id="username"
                             name="username"
                             value={formData.username}
                             onChange={handleInputChange} className="input input-bordered" placeholder="Username" />
                         {errors.username && <p className="text-red-500 text-xs italic">{errors.username}</p>}
-                    </div>
+                    </div>  */}
                     <div className=" flex items-center justify-center gap-2 mb-2">
                         <input type="text" id="address"
                             name="address"

@@ -16,9 +16,9 @@ export class AuthController{
         private roleservice: RoleService
     ){}
 
-    @Roles('Hr')
-    @UseGuards(RolesGuard)
-    @UseGuards(AuthGuard)
+    // @Roles('Hr')
+    // @UseGuards(RolesGuard)
+    // @UseGuards(AuthGuard)
     @Post('signup')
     @UseInterceptors(FileInterceptor('myfile',
         {

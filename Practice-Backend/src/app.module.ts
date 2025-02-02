@@ -16,7 +16,7 @@ import { APP_GUARD } from '@nestjs/core';
       port: 5432,
       username: 'postgres',
       password: 'Admin',
-      database: 'test',
+      database: 'HRConnect',
       autoLoadEntities: true,
       synchronize: true,
     }

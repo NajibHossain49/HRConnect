@@ -1,0 +1,28 @@
+Step-1: Add Role 
+http://localhost:3444/role/addrole
+
+*  Id:1
+{
+    "role":"Admin" 
+}
+
+* Id:2
+{
+    "role":"Manager" 
+}
+
+* Id:3
+{
+    "role":"Hr"  
+} 
+
+
+Step-2: Signup
+http://localhost:3444/auth/signup
+
+@Admin  Id:1
+
+@Manager   Id:2
+
+@ Hr  Id:3
+
